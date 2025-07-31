@@ -10,6 +10,10 @@ tasks.withType<JavaCompile> {
 
 dependencies {
     api(project(":shared"))
-    kapt("gg.scala.commons:bukkit:3.5.2")
+    compileOnly(fileTree("lib") {
+        include("*.jar")
+    })
+    kapt("gg.scala.commons:bukkit:4.0.7")
+    compileOnly("gg.scala.game.extensions:scala-core-game-extensions:1.3.0")
     compileOnly("gg.scala.cgs:game:1.4.1")
 }

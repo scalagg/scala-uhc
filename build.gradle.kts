@@ -9,7 +9,7 @@ plugins {
 }
 
 allprojects {
-    group = "gg.tropic.uhc"
+    group = "gg.scala.uhc"
     version = "1.0.6"
 
     repositories {
@@ -27,7 +27,7 @@ subprojects {
     dependencies {
         compileOnly(kotlin("stdlib"))
 
-        compileOnly("gg.scala.commons:bukkit:3.5.2")
+        compileOnly("gg.scala.commons:bukkit:4.0.7")
         compileOnly("gg.scala.store:spigot:0.1.8")
         compileOnly("gg.scala.spigot:server:1.1.0")
 

@@ -1,2 +1,2 @@
-rootProject.name = "tropic-uhc"
+rootProject.name = "scala-uhc"
 include("plugin", "plugin-lobby", "shared")
